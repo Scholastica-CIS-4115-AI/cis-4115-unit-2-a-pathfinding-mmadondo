@@ -143,6 +143,8 @@ public class AStar {
             //   --- Set the neighbor's heuristic distance to goal using getEstimatedDistanceToGoal()
             //   --- Set the neighbor's total distance from goal to the distance from start plus the heuristic distance to goal
             //   --- Make sure the frontier list stays sorted
+            
+            //will make changes above
 
         }
 
