@@ -151,7 +151,6 @@ public class AStar {
             neighbor.distanceFromStart = newDistanceFromStart;
             neighbor.heuristicDistanceToGoal = calcEstimatedDistance(neighbor.x, neighbor.y, map.getGoalLocation().x, map.getGoalLocation().y);
             neighbor.TotalDistance = neighbor.distanceFromStart + neighbor.heuristicDistanceToGoal;
-            //neighbor.TotalDistance = neighbor.distanceFromStart;
             //keep the frontier list sorted so you explore the best nodes first
             Collections.sort(frontierList);
         }
